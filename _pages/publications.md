@@ -3,8 +3,8 @@ layout: page
 title: Publications
 permalink: /publications/
 description:
-nav: true
-nav_order: 3
+nav: false
+redirect: /#publications
 ---
 
-Publication information will be added after review.
+Publications is now part of the homepage. [Go to Publications](/#publications).

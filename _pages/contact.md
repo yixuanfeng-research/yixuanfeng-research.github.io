@@ -3,8 +3,8 @@ layout: page
 title: Contact
 permalink: /contact/
 description:
-nav: true
-nav_order: 5
+nav: false
+redirect: /#contact
 ---
 
-Contact information will be added after review.
+Contact is now part of the homepage. [Go to Contact](/#contact).

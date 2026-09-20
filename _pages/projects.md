@@ -3,8 +3,8 @@ layout: page
 title: Projects
 permalink: /projects/
 description:
-nav: true
-nav_order: 2
+nav: false
+redirect: /#projects
 ---
 
-Project information will be added after review.
+Projects is now part of the homepage. [Go to Projects](/#projects).

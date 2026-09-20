@@ -15,6 +15,9 @@ node_modules/
 output/playwright/
 test-results/
 vendor
+/personal_data/
+/PROJECT_BRIEF.md
+/PROJECT_content.md
 
 # Python bytecode from bin/ helper scripts
 __pycache__/

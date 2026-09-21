@@ -6,14 +6,12 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yixuan
 middle_name:
 last_name: Feng
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic website of Yixuan Feng.
+contact_note:
+description: Research on clay–water interfaces, molecular simulation, and environmental physical chemistry by Yixuan Feng.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Yixuan Feng, academic website, research
+keywords: Yixuan Feng, clay–water interfaces, environmental clay science, molecular simulation, physical chemistry
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -244,6 +242,8 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _posts/
+  - test/
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -342,7 +342,7 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # hide the starter blog archives while this is a single-page research site
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
@@ -379,8 +379,9 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
-  group_order: descending
+  sort_by: display_order, year, month, title
+  order: ascending, descending, descending, ascending
+  group_by: none
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -405,6 +406,7 @@ filtered_bibtex_keywords:
     blog,
     code,
     dimensions,
+    display_order,
     eprint,
     google_scholar_id,
     hal,
@@ -422,11 +424,11 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: # show every coauthor in the publication list
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+enable_publication_thumbnails: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes

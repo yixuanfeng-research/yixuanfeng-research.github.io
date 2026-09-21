@@ -39,7 +39,9 @@ _styles: |
     <div class="research-inner">
       <h2 id="projects-title">Projects</h2>
       <div class="research-project">
-        <div class="research-project-image" aria-hidden="true"><span>Proton transfer</span></div>
+        <div class="research-project-media">
+          <img class="research-project-image" src="{{ '/assets/img/projects/clay-edge-proton-transfer.webp' | relative_url }}" alt="Clay surface charge trajectories under acidic, neutral, and basic conditions, with molecular views of direct and solvent-assisted proton transfer" width="1200" height="655" loading="eager" decoding="async">
+        </div>
         <div>
           <h3>Dynamic proton transfer at clay edges</h3>
           <p class="research-muted">How do clay edges exchange protons with water, and how does pH change their surface charge?</p>
@@ -48,7 +50,9 @@ _styles: |
         </div>
       </div>
       <div class="research-project">
-        <div class="research-project-image" aria-hidden="true"><span>Interfacial water</span></div>
+        <div class="research-project-media">
+          <img class="research-project-image" src="{{ '/assets/img/projects/interfacial-water-networks.webp' | relative_url }}" alt="Molecular structure and normalized distributions of ions, water, hydrogen bonds, rings, and fragments across a charged clay–water interface" width="1200" height="879" loading="eager" decoding="async">
+        </div>
         <div>
           <h3>Water networks at charged clay interfaces</h3>
           <p class="research-muted">Looking beyond water layering to understand how hydrogen-bond networks reorganize near mineral surfaces.</p>
@@ -57,7 +61,9 @@ _styles: |
         </div>
       </div>
       <div class="research-project">
-        <div class="research-project-image" aria-hidden="true"><span>Hydrogen-bond networks</span></div>
+        <div class="research-project-media">
+          <img class="research-project-image" src="{{ '/assets/img/projects/hydrogen-bond-clustering.webp' | relative_url }}" alt="Four-level hierarchy of hydrogen bonds, rings, fragments, and clusters identified with the Louvain algorithm" width="1200" height="568" loading="eager" decoding="async">
+        </div>
         <div>
           <h3>Mapping hydrogen-bond networks in salt solutions</h3>
           <p class="research-muted">A graph-based view of how salt reshapes water structures across several length scales.</p>

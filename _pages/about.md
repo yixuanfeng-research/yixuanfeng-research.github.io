@@ -42,7 +42,7 @@ _styles: |
         <div class="research-project-media">
           <img class="research-project-image" src="{{ '/assets/img/projects/clay-edge-proton-transfer.webp' | relative_url }}" alt="Clay surface charge trajectories under acidic, neutral, and basic conditions, with molecular views of direct and solvent-assisted proton transfer" width="1200" height="655" loading="eager" decoding="async">
         </div>
-        <div>
+        <div class="research-project-content">
           <h3>Dynamic proton transfer at clay edges</h3>
           <p class="research-muted">How do clay edges exchange protons with water, and how does pH change their surface charge?</p>
           <details><summary>Research overview</summary><p>Using molecular dynamics driven by machine learning potentials with first-principles accuracy, this work examines montmorillonite nanoparticles across acidic, neutral, and basic conditions. The simulations show that edge sites respond to pH and can transfer protons through direct and solvent-mediated pathways, demonstrating that montmorillonite edges are not static arrays of hydroxyl groups but dynamic, proton-conducting networks.</p></details>
@@ -53,7 +53,7 @@ _styles: |
         <div class="research-project-media">
           <img class="research-project-image" src="{{ '/assets/img/projects/interfacial-water-networks.webp' | relative_url }}" alt="Molecular structure and normalized distributions of ions, water, hydrogen bonds, rings, and fragments across a charged clay–water interface" width="1200" height="879" loading="eager" decoding="async">
         </div>
-        <div>
+        <div class="research-project-content">
           <h3>Water networks at charged clay interfaces</h3>
           <p class="research-muted">Looking beyond water layering to understand how hydrogen-bond networks reorganize near mineral surfaces.</p>
           <details><summary>Research overview</summary><p>This study combines conventional molecular descriptors with hierarchical analysis of hydrogen-bond connectivity at montmorillonite–NaCl interfaces. It characterizes the local density and orientational ordering of interfacial water, together with the cooperative organization of its hydrogen-bond network. By tracking the spatial evolution of medium-range structures across different electrolyte concentrations and surface charge densities, the analysis divides the interface into distinct structural regions and identifies a consistent boundary approximately 7.8 Å from the surface.</p></details>
@@ -64,7 +64,7 @@ _styles: |
         <div class="research-project-media">
           <img class="research-project-image" src="{{ '/assets/img/projects/hydrogen-bond-clustering.webp' | relative_url }}" alt="Four-level hierarchy of hydrogen bonds, rings, fragments, and clusters identified with the Louvain algorithm" width="1200" height="568" loading="eager" decoding="async">
         </div>
-        <div>
+        <div class="research-project-content">
           <h3>Mapping hydrogen-bond networks in salt solutions</h3>
           <p class="research-muted">A graph-based view of how salt reshapes water structures across several length scales.</p>
           <details><summary>Research overview</summary><p>We developed a hierarchical clustering approach that describes hydrogen-bonded water as rings, fragments, and larger clusters. Applied to NaCl solutions, it reveals how increasing salt concentration changes the size, connectivity, and lifetime of these structures, linking local ion hydration to broader network behavior.</p></details>
@@ -124,9 +124,18 @@ _styles: |
     <div class="research-inner">
       <h2 id="contact-title">Contact</h2>
       <div class="research-contact">
-        <div><strong>Email</strong><a href="mailto:feng-yx20@mails.tsinghua.edu.cn">feng-yx20@mails.tsinghua.edu.cn</a></div>
-        <div><strong>ORCID</strong><a href="https://orcid.org/0000-0001-5614-7480">0000-0001-5614-7480</a></div>
-        <div><strong>Google Scholar</strong><a href="https://scholar.google.com/citations?user=gbgdjLwAAAAJ">View publications</a></div>
+        <div class="research-contact-item">
+          <span class="research-contact-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
+          <div class="research-contact-copy"><strong>Email</strong><a href="mailto:feng-yx20@mails.tsinghua.edu.cn">feng-yx20@mails.tsinghua.edu.cn</a></div>
+        </div>
+        <div class="research-contact-item">
+          <span class="research-contact-icon" aria-hidden="true"><i class="ai ai-orcid"></i></span>
+          <div class="research-contact-copy"><strong>ORCID</strong><a href="https://orcid.org/0000-0001-5614-7480">0000-0001-5614-7480</a></div>
+        </div>
+        <div class="research-contact-item">
+          <span class="research-contact-icon" aria-hidden="true"><i class="ai ai-google-scholar"></i></span>
+          <div class="research-contact-copy"><strong>Google Scholar</strong><a href="https://scholar.google.com/citations?user=gbgdjLwAAAAJ">View publications</a></div>
+        </div>
       </div>
     </div>
   </section>

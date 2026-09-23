@@ -281,6 +281,14 @@ div#notebook {
   transition: 200ms ease !important;
 }
 
+
+.btn-sm {
+  font-size: inherit;
+  font-weight: normal;
+  height: inherit;
+  line-height: inherit;
+}
+
 button.close {
   border: 0px none;
   font-family: sans-serif;
@@ -535,6 +543,18 @@ hr {
   -webkit-box-shadow: none;
   box-shadow: none;
   z-index: 10;
+}
+
+#clusters > a {
+  color: #a6e22e;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+#clusters > a:hover {
+  color: #ae81ff;
+  text-decoration: underline;
+  cursor: auto;
 }
 
 mark,
